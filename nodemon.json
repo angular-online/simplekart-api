@@ -1,6 +1,6 @@
 {
     "env": {
-        "port": 3000,
+        "port": 4000,
         "JWT_KEY": "simplekart-secret-key"
     }
 }
