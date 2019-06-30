@@ -26,7 +26,7 @@ app.use((req, res, next) => {
     next();
 });
 
-mongoose.connect("mongodb://localhost:27017/simplekart");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/simplekart");
 
 mongoose.connection.on('open', function(){
     console.log("Database connected");
