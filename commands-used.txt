@@ -20,7 +20,7 @@ mongodump -d todos -o dbdump
 Import Entire DB:
 -----------------
 mongorestore -d <database_name> <directory_backup>
-dbdump>  mongorestore -d todos todos 
+dbdump>  mongorestore -d simplekart simplekart 
 
 Export collection:
 ------------------
